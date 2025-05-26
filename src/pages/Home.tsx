@@ -1,7 +1,5 @@
-import React, { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import heroImage from '../assets/heroImage.png';
-import shoeImageMen from '../assets/products/men/menShoes1.png'
-import hoodieMen from '../assets/products/men/menhoodie.jpg'
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { products } from '../data/products'
 

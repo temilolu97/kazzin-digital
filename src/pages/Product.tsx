@@ -1,10 +1,8 @@
-import React, { useState } from 'react'
-import { useLocation, useParams } from 'react-router-dom';
-import sampleImage from '../assets/products/men/menShoes1.png'
+import { useState } from 'react'
+import { useLocation } from 'react-router-dom';
 import { useCart } from '../contexts/CartContext';
 
 const Product = () => {
-    const { productId } = useParams(); // For dynamic routing
     const location = useLocation();
     const product = location.state?.product;
     const [quantity, setQuantity] = useState(1);
