@@ -1,22 +1,21 @@
-import { Link } from 'react-router-dom';
 import mastercardlogo from '../assets/mastercardlogo.png'
 import paypalLogo from '../assets/paypallogo.png'
 import visaLogo from '../assets/visalog.png'
 
 
-const footerLinks = {
-  information: [
-    { name: 'Privacy Policy', href: '/privacy' },
-    { name: 'Terms and Conditions', href: '/terms' },
-    { name: 'Payment Options', href: '/payment' },
-    { name: 'Return Policy', href: '/returns' },
-  ],
-  contact: [
-    { name: 'Phone: 08066954411', href: 'tel:08066954411' },
-    { name: 'Email: adenugakao2018@gmail.com', href: 'mailto:adenugakao2018@gmail.com' },
-    { name: 'Address: 8, Rasheed Alaba Williams Street, Lekki Phase 1, Lagos State, Nigeria', href: '#' },
-  ],
-};
+// const footerLinks = {
+//   information: [
+//     { name: 'Privacy Policy', href: '/privacy' },
+//     { name: 'Terms and Conditions', href: '/terms' },
+//     { name: 'Payment Options', href: '/payment' },
+//     { name: 'Return Policy', href: '/returns' },
+//   ],
+//   contact: [
+//     { name: 'Phone: 08066954411', href: 'tel:08066954411' },
+//     { name: 'Email: adenugakao2018@gmail.com', href: 'mailto:adenugakao2018@gmail.com' },
+//     { name: 'Address: 8, Rasheed Alaba Williams Street, Lekki Phase 1, Lagos State, Nigeria', href: '#' },
+//   ],
+// };
 
 export default function Footer() {
   return (
